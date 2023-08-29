@@ -17,10 +17,17 @@ Edit 29 aug: I lied, I decided to make it more functional as it was just an emba
 Changelog:
 
 Improved hitbox on aliens and projectile
+
 Improved the movement system
+
 Increased fire rate
+
 Added progressive difficulty
+
 Added a 10 round game loop
+
 Fixed bug that would cause character to go off screen
+
 Added text to screen showing round (obviously)
+
 Fixed hit detection happening too early

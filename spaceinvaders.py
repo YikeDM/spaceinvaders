@@ -188,7 +188,7 @@ while 1:
                     
                     if event.key == pygame.K_SPACE:
                         current_time = pygame.time.get_ticks()
-                        if current_time - previous_time > 750:
+                        if current_time - previous_time > 650:
                             player1.fire()
                             previous_time = current_time
 

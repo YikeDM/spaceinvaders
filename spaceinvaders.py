@@ -10,8 +10,8 @@ class Bullet:
         self.state = 1
         self.speed = 15
         self.image = pygame.image.load("bullet.bmp")
-        self.rect = self.image.get_rect(center = (self.x+35, self.y))
-        self.rect = self.rect.inflate(-25, -35)
+        self.rect = self.image.get_rect(center = (self.x+48, self.y))
+        self.rect = self.rect.inflate(-5, -15)
         
         
 
@@ -199,7 +199,7 @@ while 1:
             if keys[pygame.K_d]:
                 player1.move(0)
 
-
+        
             screen.blit(background, (0, 0))
             screen.blit(scorestring, (15, 15))
             screen.blit(scoredisplay, (165, 15))
